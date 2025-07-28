@@ -5,7 +5,7 @@ The only comment included in the README.md file is the package comment (the part
 
 Unlike other more capable tools, pkgdoc2readme only inspects the go sources in the current directory (no subdirectories).  Nor does pkgdoc2readme add any functionality to what is available in go/doc/comment or offer any control over the output. If you need those more advanced features, do use another tool. Googling will find you plenty.
 
-The best way to use this tool us add a go:generate directive in one of the source files and to run go generate. Look at the source file of this tool for an example.
+The best way to use this tool is to add a go:generate directive in one of the source files and to run go generate. Look at the source file of this tool for an example.
 */
 //go:generate pkgdoc2readme
 package main
